@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_adicionar_transacao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Campo para o Tipo (Receita ou Despesa) -->
+        <EditText
+            android:id="@+id/etTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo (Receita/Despesa)" />
+
+        <!-- Campo para o Valor -->
+        <EditText
+            android:id="@+id/etValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor"
+            android:inputType="numberDecimal" />
+
+        <!-- Campo para a Data -->
+        <EditText
+            android:id="@+id/etData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data (dd/MM/yyyy)" />
+
+        <!-- Campo para a Categoria -->
+        <EditText
+            android:id="@+id/etCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Categoria" />
+
+        <!-- Campo para a Descrição -->
+        <EditText
+            android:id="@+id/etDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descrição" />
+
+        <!-- Botão para Salvar a Transação -->
+        <Button
+            android:id="@+id/btnSalvarTransacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar" />
+    </LinearLayout>
+</ScrollView>

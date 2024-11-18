@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Mensagem de boas-vindas -->
+    <TextView
+        android:id="@+id/tvBemVindo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo ao Meu App Financeiro!"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Botão para adicionar transações -->
+    <Button
+        android:id="@+id/btnAdicionarTransacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Transação" />
+
+    <!-- Botão para ver a lista de transações -->
+    <Button
+        android:id="@+id/btnVerTransacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Transações" />
+
+    <!-- Botão para ver o gráfico de despesas -->
+    <Button
+        android:id="@+id/btnVerGrafico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Gráfico de Despesas" />
+
+    <!-- Botão para definir meta financeira -->
+    <Button
+        android:id="@+id/btnDefinirMeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Definir Meta Financeira" />
+
+    <!-- Texto para mostrar o progresso da meta -->
+    <TextView
+        android:id="@+id/tvProgressoMeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progresso da Meta:"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+</LinearLayout>
